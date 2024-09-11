@@ -1,0 +1,19 @@
+<center>
+<button onclick="openGame()" style="position:center; bottom: 0; font-size: 40px"> Play in about blank </button>
+<script>
+function openGame() {
+  var win = window.open ('about:blank')//https://www.crazygames.com/game/kirka-io
+  var url = "https://deltamath.1.us-1.fl0.io/#"
+  var iframe = win.document.createElement('iframe')
+  iframe.style.width = "100%"
+  iframe.style.height = "100%"
+  iframe.style.border = "none"
+  iframe.src = url
+
+  win.document.body.appendChild(iframe)
+
+}
+</script>
+<center>
+  <img src="games/1v1lol/favicon.png" style="height: 500px; width: 500px;">
+</center>
